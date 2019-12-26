@@ -12,14 +12,24 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_my_course"
         android:name="com.marki.startactivity.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:label="@string/my_courses"
+        tools:layout="@layout/fragment_my_course" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_my_account"
         android:name="com.marki.startactivity.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_my_account" />
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.marki.startactivity.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/navigation_my_cart"
+        android:name="com.marki.startactivity.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_cart" />
 </navigation>
